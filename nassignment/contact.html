@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form id="contact">
+<label>First Name: <input type="text" id="firstName" required></label>
+<label>Last Name: <input type="text" id="lastName" required></label>
+<label>Phone No: <input type="text" id="phone" required pattern="\d{10}"></label>
+<label>Email ID: <input type="email" id="email" required></label>
+<label>Address Type: </label>
+<input type="radio" name="addressType" value="Home" checked> Home
+<input type="radio" name="addressType" value="Office"> Office
+<textarea id="txt" name="txt" rows="4" cols="50">
+
+</textarea><br>
+<button type="button" id="back">Back</button>
+<button type="submit" id="submit">Submit</button>
+</form>
+<script src="form.js"></script>
+</body>
+</html>
+
+ 
